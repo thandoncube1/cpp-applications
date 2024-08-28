@@ -26,7 +26,7 @@ bool binarySearch(std::vector<int> list, int value) {
 int main() {
     std::vector<int> list = {5, 7, 12, 13, 20, 23, 23, 29, 58, 72, 73, 90};
 
-    int result = binarySearch(list, 58);
+    bool result = binarySearch(list, 58);
     std::cout << "Search Result: " << result << "\n";
     return 0;
 }
